@@ -1,5 +1,4 @@
 # Database Performance Optimization - Changes & Improvements
-Refer to [javascript](#)
 ## Summary
 
 The slow query performance was caused by **correlated subqueries** creating an **N+1 query problem**. One query with customer ID was spawning 200,000+ database calls instead of executing efficiently.
