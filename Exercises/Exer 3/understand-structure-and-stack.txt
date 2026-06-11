@@ -1,0 +1,59 @@
+**PROMPT TEMPLATE**
+I'm a junior developer who just joined this project. I've read the README but still need help understanding the project structure and technology stack.
+
+Here's my current understanding of the project:
+- It seems to be a [your best guess at what the application does]
+- It appears to use [technologies/frameworks you've identified]
+- The folder structure seems to follow [pattern you've observed]
+
+Project structure:
+[Paste concise directory structure - limit to top-level folders and key subfolders]
+
+Key configuration files:
+[Paste relevant sections from package.json/pom.xml/requirements.txt/Gemfile, docker files, etc.]
+
+Could you:
+1. Validate my understanding and correct any misconceptions
+2. Identify additional key technologies, frameworks, and libraries used
+3. Explain what each main folder likely contains and its purpose
+4. Point out where the application entry points are located
+5. Suggest 3-5 specific questions I should ask my team to deepen my understanding
+
+I'm particularly confused about [mention specific areas of confusion, if any].
+
+After your explanation, could you suggest a small exploration exercise I could do to verify my understanding of the project structure?
+**MY PROMPT**
+I'm a junior developer who just joined this project. I've read the README but still need help understanding the project structure and technology stack.
+
+Here's my current understanding of the project:
+- It seems to be a task management applciation that uses cli to create commands to create tasks, list all tasks, update any task statuses, undate task due dates, update task priority, delete a task and add a tag to a task and then i noted that there is likley a remote and local storage  and task_list_merge.js allows local tasks and remote takss to be merged and return all tasks that should be updated per storage side and conflict handling.
+- It appears to use cli (for commands), uuid (for unique ids per task), javascript
+
+Project structure:
+Javascript/
+└── TaskManager/
+    ├── node_modules/
+    ├── tests/
+    ├── .gitignore
+    ├── app.js
+    ├── cli.js
+    ├── models.js
+    ├── package-lock.json
+    ├── package.json
+    ├── README.md
+    ├── storage.js
+    ├── task_list_merge.js
+    ├── task_parser.js
+    └── task_priority.js
+
+Key configuration files:
+app.js for actualy program, cli.js for commands, storage.js for stroage, task_list_merge.js for mergeing locla and remote tasks, task parser (I dont understnd), task_priority (I dont understand)
+
+Could you:
+1. Validate my understanding and correct any misconceptions
+2. Identify additional key technologies, frameworks, and libraries used
+3. Explain what each main folder likely contains and its purpose
+4. Point out where the application entry points are located
+5. Suggest 3-5 specific questions I should ask my team to deepen my understanding
+
+I'm particularly confused about task_parser.js and task_priority.js

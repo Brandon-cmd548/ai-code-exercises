@@ -1,0 +1,39 @@
+I'm trying to understand this algorithm/function in our codebase:
+
+[Paste complex function here]
+
+Based on my current understanding:
+1. I think this function is trying to [your best guess at purpose]
+2. The inputs seem to be [parameters you can identify] and it returns [what you think it returns]
+3. I'm particularly confused about [specific part that's unclear]
+
+Could you help me understand this by:
+1. Breaking down the algorithm into key sections with their purposes
+2. Walking through a simple example execution with concrete values
+3. Explaining the core technique/pattern being used here
+4. Highlighting any non-obvious optimizations or tricks
+
+After your explanation, could you ask me 2-3 targeted questions that would test my understanding of this algorithm's:
+- Underlying principles
+- Edge cases
+- Performance characteristics
+
+This will help me make sure I've really grasped how it works.
+
+**MY EDITED PROMPT:**
+I'm trying to understand this function in this codebase:
+
+function mergeTaskLists
+
+Based on my current understanding:
+1. I think the function (mergeTaskLists) is trying to merge task lists as objects from the local stroage and from remote/added storage im assuming this is an attempt to perhaps migrate remote to local or local to remote it also ensures that tasks dont get duplicated, and if tasks already exit in remote but not in local add too local, aswell as if the task already exists in both remote and lcoal
+2. The inputs seem to be localTasks and remote Tasks and it returns merged tasks. missing remote taks and what tasks to update for remote and what tasks are missing from local and what tasks to add/udpate to local
+3. I'm particularly confused about what it returns as i did put my assumption in previous part of this prompt
+
+Could you help me understand this by:
+1. Breaking down the algorithm into key sections with their purposes
+2. Walking through a simple example execution with concrete values
+3. Explaining the core technique/pattern being used here
+4. Highlighting any non-obvious optimizations or tricks
+
+This will help me make sure I've really grasped how it works.

@@ -1,0 +1,24 @@
+I'm trying to untangle the logic in this complex function with nested conditionals and loops:
+
+[Paste complex code with nested logic]
+
+My current understanding of the control flow is:
+[Describe your best attempt at tracing the logic path]
+
+I'm particularly unsure about:
+1. [Specific conditional or loop that's confusing]
+2. [Another point of confusion]
+3. [Any variables that change in unclear ways]
+
+Could you help me by:
+1. Creating a visual representation of the control flow (described in text)
+2. Refactoring this code into more understandable segments without changing functionality
+3. Explaining the key decision points and their interdependencies
+4. Identifying any potential logic bugs or edge cases that might not be handled correctly
+
+Then, guide me through an exercise where I can test my understanding:
+- Provide 2-3 specific input scenarios
+- Ask me to predict what would happen in each case
+- Explain what actually happens and why
+
+This will help me build an accurate mental model of this complex logic.

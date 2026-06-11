@@ -1,0 +1,19 @@
+I need help understanding the intent behind this poorly documented/named code:
+
+[Paste code with unclear naming or sparse comments]
+
+Here's what I've figured out so far:
+- This code appears in [describe where it's used in the codebase]
+- It seems to be called when [context of function calls]
+- I can see it's manipulating [data structures or state it affects]
+- The variable names suggest it might be [your theory about purpose]
+
+Please help me by:
+1. Suggesting better names for functions/variables that reflect their likely purpose
+2. Identifying the programming patterns or techniques being used
+3. Creating pseudocode that reveals the underlying intent
+4. Drafting documentation comments that would make this code understandable
+
+Then, please share 3-4 questions I should ask myself to validate whether my new understanding is correct. These questions should help me check my understanding against the rest of the codebase and application behavior.
+
+Finally, what are some small, safe experiments I could run to verify how this code actually behaves without disrupting the system?
