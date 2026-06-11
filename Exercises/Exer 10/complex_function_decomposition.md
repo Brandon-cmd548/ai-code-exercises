@@ -1,6 +1,6 @@
 # Function Refactoring Analysis: User Validator
 
-**Course:** WeThinkCode AI Course - Day 1, Exercise 1  
+**Course:** WeThinkCode AI Course - Day 1, Exercise 10  
 **Date:** June 2026  
 **Assignment:** Refactor a complex validation function into smaller, focused functions
 
