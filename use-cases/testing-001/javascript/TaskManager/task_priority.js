@@ -1,6 +1,6 @@
 const {TaskPriority, TaskStatus} = require("./models");
 
-function calculateTaskScore(task) {
+function calculateTaskScore(task, currentUserId) {
   // Base priority weights
   const priorityWeights = {
     [TaskPriority.LOW]: 1,
@@ -11,6 +11,11 @@ function calculateTaskScore(task) {
 
   // Calculate base score from priority
   let score = (priorityWeights[task.priority] || 0) * 10;
+
+  // Current user = Assigned to person, give +12 to score
+  if (task.assignedTo === currentUserId) {
+    score += 12
+  }
 
   // Add due date factor (higher score for tasks due sooner)
   if (task.dueDate) {
@@ -42,25 +47,27 @@ function calculateTaskScore(task) {
   }
 
   // Boost score for recently updated tasks
-  const now = new Date();
-  const updatedAt = new Date(task.updatedAt);
-  const daysSinceUpdate = Math.floor((now - updatedAt) / (1000 * 60 * 60 * 24));
-  if (daysSinceUpdate < 1) {
-    score += 5;
+  if (task.updatedAt) {
+    const now = new Date();
+    const updatedAt = new Date(task.updatedAt);
+    const daysSinceUpdate = Math.floor((now - updatedAt) / (1000 * 60 * 60 * 24));
+    if (daysSinceUpdate < 1) {
+      score += 5;
+    }
   }
 
   return score;
 }
 
-function sortTasksByImportance(tasks) {
+function sortTasksByImportance(tasks, currentUserId) {
   // Create a copy of the tasks array to avoid modifying the original
   return [...tasks].sort((a, b) => {
-    return calculateTaskScore(b) - calculateTaskScore(a);
+    return calculateTaskScore(b, currentUserId) - calculateTaskScore(a, currentUserId);
   });
 }
 
-function getTopPriorityTasks(tasks, limit = 5) {
-  const sortedTasks = sortTasksByImportance(tasks);
+function getTopPriorityTasks(tasks, limit = 5, currentUserId) {
+  const sortedTasks = sortTasksByImportance(tasks, currentUserId);
   return sortedTasks.slice(0, limit);
 }
 
