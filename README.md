@@ -8,6 +8,9 @@ This table of contents is provided to help markers and anyone interested in revi
 - Code (+My commits) = Raw code used, raw code created
 - My attempt (final) = All exercise answers simplified
 
+### Important Note:
+I used **JavaScript** codebases for each applicable exercise
+
 ### Exercises:
 
  Use Case | Exercise | Overview | Code (+My commits) | My attempt (final) |
