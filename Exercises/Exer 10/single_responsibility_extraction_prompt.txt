@@ -1,0 +1,12 @@
+I'd like to extract a single responsibility from this complex function:
+
+[Paste complex function here]
+
+Specifically, I want to extract the logic that handles:
+[Describe the specific responsibility to extract, e.g., "validation", "data transformation", "error handling"]
+
+Please:
+1. Identify all code related to this responsibility
+2. Create a new function that encapsulates just this responsibility
+3. Show how to modify the original function to call the new function
+4. Suggest an appropriate name and parameters for the extracted function

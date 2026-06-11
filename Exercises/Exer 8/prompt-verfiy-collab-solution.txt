@@ -1,0 +1,25 @@
+I'd like to verify a solution you've suggested before implementing it. Let me share both the solution and my current understanding of how to test it.
+
+The solution you provided:
+[Paste AI's suggested code or explanation]
+
+My understanding of this solution:
+- What I think it does: [Your explanation of how the solution works]
+- How I think it fixes the original problem: [Your understanding of why it addresses the issue]
+
+My ideas for testing this solution:
+- Test cases I'm considering: [List 2-3 test cases you've thought of]
+- Edge cases I'm concerned about: [Any edge cases you can think of]
+- Parts I'm unsure how to test: [Mention any aspects you're not sure how to verify]
+
+Could you please:
+1. Confirm if my understanding is accurate or correct any misconceptions
+2. Evaluate my proposed test cases and suggest improvements
+3. Recommend additional edge cases I might have missed
+4. Provide a simple verification plan that would help ensure this solution works properly
+5. Highlight any assumptions in the solution that might not be obvious to me
+
+My environment/constraints:
+[Describe relevant details about your system, versions, etc.]
+
+I want to learn how to properly verify solutions, not just implement them blindly.

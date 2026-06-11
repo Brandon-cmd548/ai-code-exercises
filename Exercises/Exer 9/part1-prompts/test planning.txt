@@ -1,0 +1,10 @@
+I'm learning to write tests for these related functions:
+
+[Paste all three functions from your chosen implementation]
+
+Instead of writing tests for me, please:
+1. Help me create a testing plan by asking me questions
+2. For each behavior I identify, ask me how I would test it
+3. If I miss something important, give me hints rather than answers
+4. For each edge case we identify, ask me what I expect to happen
+5. Help me create a checklist of tests I should write, organized by priority

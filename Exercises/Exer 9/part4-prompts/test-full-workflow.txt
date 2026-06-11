@@ -1,0 +1,9 @@
+I want to create an integration test for the task priority workflow:
+
+[Paste all three functions]
+
+Rather than writing the test for me, please:
+1. Ask me what scenarios an integration test should verify
+2. Guide me in designing test data that would exercise the entire workflow
+3. Help me understand what assertions would verify the correct behavior
+4. Ask me how I would structure the test to make it readable and maintainable

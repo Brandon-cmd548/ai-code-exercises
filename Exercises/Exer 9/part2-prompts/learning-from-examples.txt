@@ -1,0 +1,13 @@
+I'm trying to understand how to better test the due date calculation portion of this function:
+
+[Paste calculateTaskScore function]
+
+I'm thinking of writing a test like this (pseudocode):
+[Write a rough outline/pseudocode of your test idea]
+
+Please:
+1. Explain the principles of a good test for this specific functionality
+2. Show me ONE example of a better test with comments explaining why it's better
+3. Ask me questions about how I would improve my approach based on this example
+4. Challenge me to identify what edge cases I should add
+5. Guide me in writing more precise assertions

@@ -1,0 +1,24 @@
+I want to develop my critical thinking skills by analyzing a solution together. Let's examine this solution you provided:
+
+[Paste AI's suggested solution]
+
+My initial assessment:
+- Strengths I see: [What you think is good about the solution]
+- Concerns I have: [Any aspects you're unsure about]
+- Questions that came to mind: [1-2 specific questions you have]
+
+Could we collaborate on a critical review where:
+1. You confirm or correct my initial assessment
+2. We identify potential weaknesses in this solution that I might have missed
+3. We consider what assumptions this code makes about:
+   - The environment it runs in
+   - The input data
+   - Error handling expectations
+   - Performance requirements
+4. We discuss how maintainable this solution would be if:
+   - Requirements change slightly in the future
+   - The codebase scales significantly
+   - Another developer needs to modify it without context
+5. You suggest improvements that would address the biggest concerns
+
+I'm trying to develop the skill of critically evaluating solutions before implementing them. Explaining your thought process would help me learn this skill better.

@@ -1,0 +1,11 @@
+I want to practice TDD to fix a bug:
+The calculation for "days since update" isn't working correctly.
+
+Here's the current function:
+[Paste calculateTaskScore function]
+
+Please:
+1. Ask me what test I would write to reproduce the bug
+2. Help me understand if my test actually demonstrates the bug
+3. Guide me in implementing a minimal fix
+4. Ask me if there are any other tests I should add to prevent regression

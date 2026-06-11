@@ -1,0 +1,9 @@
+I have a complex function that I'd like to refactor by breaking it down into smaller functions:
+
+[Paste complex function here]
+
+Please:
+1. Identify the distinct responsibilities/concerns in this function
+2. Suggest a decomposition strategy with smaller functions
+3. Show which parts of the original code would move to each new function
+4. Provide a refactored version with the main function delegating to the smaller functions

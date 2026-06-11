@@ -1,0 +1,9 @@
+This function contains complex conditional logic that I want to simplify:
+
+[Paste function with complex conditionals]
+
+Please:
+1. Identify the different logical paths through the conditionals
+2. Extract each conditional branch into a separate named function
+3. Suggest a pattern (Strategy, Command, etc.) that could replace the conditionals
+4. Provide a refactored version with simplified logic in the main function

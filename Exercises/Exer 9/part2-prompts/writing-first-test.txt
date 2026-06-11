@@ -1,0 +1,14 @@
+I wrote this test for the following function:
+
+Function:
+[Paste calculateTaskScore function]
+
+My test:
+[Paste your simple test]
+
+Instead of rewriting it for me, please:
+1. Ask me questions about what my test is trying to verify
+2. Help me identify if my test is checking behavior or implementation details
+3. Suggest how I could make the test's purpose clearer
+4. Ask me what edge cases my test might be missing
+5. Guide me in improving my assertions to be more precise

@@ -1,0 +1,20 @@
+I have a piece of code that's running slowly. I'd like to understand why and how to improve it.
+
+Here's the slow-performing code:
+
+[paste your code here]
+
+Context about the issue:
+- What this code is supposed to do: [brief explanation of purpose]
+- Typical input size/data: [describe the data size, like "processing 10,000 records"]
+- Current performance: [describe how slow it is, like "takes about 30 seconds to run"]
+- Environment: [language version, framework, hardware limitations if relevant]
+
+Could you please:
+1. Explain in simple terms why this code might be slow
+2. Identify the specific operations or patterns that are likely causing the slowdown
+3. Suggest 2-3 specific improvements I could make
+4. Explain the performance concepts I should learn to avoid similar issues in the future
+5. If there are any tools or techniques I could use to measure the actual bottlenecks, please suggest them
+
+I'm particularly interested in learning the underlying performance concepts, not just getting a quick fix.

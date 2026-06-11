@@ -1,0 +1,22 @@
+I have a database query that's running very slowly. I'd like to understand why and how to optimize it.
+
+Here's the slow query:
+
+[paste your query here]
+
+Database context:
+- Database type: [MySQL, PostgreSQL, MongoDB, etc.]
+- Table sizes: [approximate number of rows in relevant tables]
+- Table structure: [key columns and their data types]
+- Existing indexes (if known): [any indexes you're aware of]
+- When the slowness occurs: [all the time, or only with certain parameters?]
+- Approximate execution time: [how long the query takes to run]
+
+Could you please:
+1. Explain in simple terms why this query might be slow
+2. Identify specific parts of the query that are likely causing performance issues
+3. Suggest improvements to make the query faster (both query rewrites and potential indexes)
+4. Explain the database concepts I should learn to write better queries
+5. Suggest how I could measure the query performance before and after changes
+
+I'm a junior developer, so explanations about the underlying database concepts would be very helpful.

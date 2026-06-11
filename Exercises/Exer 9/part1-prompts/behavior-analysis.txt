@@ -1,0 +1,10 @@
+I'm learning how to test this function, and I want to understand what behaviors I should test:
+
+[Paste the calculateTaskScore function]
+
+Rather than generating tests for me, please:
+1. Ask me questions about what I think this function does
+2. After I answer, help identify any behaviors I missed
+3. Ask me what edge cases I think should be tested
+4. Help me identify additional edge cases I didn't think of
+5. Ask me which test I should write first and why

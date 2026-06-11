@@ -1,0 +1,21 @@
+My application is using too much memory and sometimes crashes with out-of-memory errors. I'd like to understand why and how to fix it.
+
+Here's the code that I suspect is causing memory issues:
+
+[paste your code here]
+
+Additional context:
+- Application type: [web app, data processing script, etc.]
+- When the issue occurs: [e.g., "after processing about 1,000 images" or "when multiple users are active"]
+- Error message (if any): [paste any error messages]
+- Memory limit in my environment: [e.g., "8GB RAM on my development machine"]
+- Language and runtime: [e.g., "Python 3.9, Node.js 16, etc."]
+
+Could you please:
+1. Explain in simple terms what might be causing the high memory usage
+2. Identify specific memory-intensive operations or potential memory leaks
+3. Suggest 2-3 practical ways to reduce memory consumption
+4. Recommend any tools I could use to profile memory usage
+5. Explain the memory management concepts I should understand for my language/environment
+
+I want to both fix this issue and learn how to write more memory-efficient code in the future.

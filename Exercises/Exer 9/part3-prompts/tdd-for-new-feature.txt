@@ -1,0 +1,12 @@
+I want to practice Test-Driven Development to add a new feature:
+Tasks assigned to the current user should get a score boost of +12.
+
+Here's the current function:
+[Paste calculateTaskScore function]
+
+Instead of writing code and tests for me, please:
+1. Ask me what I think the first test should be and why
+2. Give me feedback on my proposed test
+3. After I write the test, ask me what minimal code would make it pass
+4. Once I've implemented the code, guide me on what test to add next
+5. Help me understand when it's time to refactor vs. add new functionality
