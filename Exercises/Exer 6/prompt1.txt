@@ -1,0 +1,19 @@
+I need help understanding this error message from my [language/framework] application.
+
+Here's the complete error message and stack trace:
+
+[paste full error message and stack trace or log file]
+
+My application context:
+- This happened when I was trying to [action that triggered the error]
+- The application is a [brief description of application type]
+- I'm using [language version] and [framework version]
+
+Could you:
+1. Explain what this error means in simple, non-technical terms
+2. Identify the most relevant lines in the stack trace (which ones actually point to my code)
+3. List 2-3 of the most likely causes based on this type of error
+4. Suggest what specific information I should look for in my code
+5. Provide a step-by-step debugging approach I could follow
+
+I'm particularly unfamiliar with [specific technology or concept] mentioned in the error, so extra explanation there would help.

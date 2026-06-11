@@ -1,0 +1,29 @@
+I need help diagnosing the root cause of an error in my [language/framework] application.
+
+Here's the error and stack trace:
+
+[paste complete error and stack trace or log file]
+
+Here are the relevant code snippets from files mentioned in the stack trace:
+
+File: [filename 1]
+[code snippet from file 1]
+
+File: [filename 2]
+[code snippet from file 2]
+
+Additional context:
+- This error occurs when [specific scenario or user action]
+- It happens [consistently/intermittently]
+- I've already tried [mention any debugging steps already taken]
+- These files interact by [brief explanation of how these components connect]
+
+Could you please:
+1. Identify the likely root cause (not just the symptoms)
+2. Explain the chain of events leading to this error
+3. Suggest 2-3 specific code changes that might fix the issue
+4. Recommend tests I could write to verify the fix
+5. Explain any patterns or anti-patterns you notice that might cause similar problems elsewhere
+6. Suggest debugging tools or techniques specific to this type of error
+
+I'm most confused about [specific aspect of the error or code], so detailed explanation there would be helpful.
