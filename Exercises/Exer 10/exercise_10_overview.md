@@ -1,4 +1,4 @@
-# Exercise 11 Overview: Function Decomposition Challenge
+# Exercise 10 Overview: Function Decomposition Challenge
 
 ## Objective
 The goal of this exercise was to improve code structure, readability, and maintainability by breaking down a complex function into smaller, focused components. The exercise emphasized identifying responsibilities within a function and applying refactoring techniques to create cleaner and more modular code.
